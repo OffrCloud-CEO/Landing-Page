@@ -693,7 +693,7 @@
 
     .landing .hero-section .content .info-section {
         margin: 2rem;
-        max-width: 95vw;
+        max-width: 100%;
         padding: 0;
         border-left: none;
     }
@@ -722,7 +722,7 @@
         height: 10rem;
         bottom: 0;
         left: 50%;
-        opacity: .5;
+        opacity: .25;
         opacity: .8;
     }
 
@@ -1018,4 +1018,8 @@
     .landing .footer section:last-child .foot-row {
         justify-content: flex-end;
     }    
+
+    .landing .next-section.mock.m3 {
+        scroll-snap-align: none;
+    }
 }
