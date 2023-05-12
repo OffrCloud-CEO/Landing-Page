@@ -106,7 +106,8 @@ const Form = () => {
             setStatus(false);
         } catch (error) {
             setStatus(false);
-            console.log();
+            console.log(error)
+            throw Error(error);
         }
     }
 
@@ -127,7 +128,8 @@ const Form = () => {
                     <span>Get in touch</span>
                 </div>
             </div>
-            <div className="label">Let's schedule your Live Demo</div>
+            {contactType === 0 && <div className="label">Get in Touch</div>}
+            {contactType === 1 && <div className="label">Let's schedule your Live Demo</div>}
             {contactType === 0 && <div className={`form-g imp ${Number(contactType) === 0 ? "" : "compressed"}`}>
                 <label>First Name</label>
                 <input type="text" className="inp" name='fName' placeholder='Chris' required={contactType === 0} />

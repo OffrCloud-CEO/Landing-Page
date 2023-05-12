@@ -77,21 +77,13 @@ const Services = () => {
                     <img src="https://gineousc.sirv.com/Images/icons/undraw_product_tour_re_8bai.svg" alt="friendly Pic" />
                 </div>
                 <div className="p">
-                    “OffrCloud offers our enterprise partners a range of products for token offerings. Our services
-                    include assisting our enterprise partners with transferring crypto capital raised into fiat currency.
-                    Our secure and customizable solutions are user-friendly and expertly supported by our
-                    accessible tech support team. We provide you the necessary tools to leverage blockchain and
-                    cryptocurrencies to give your business a strategic advantage.”
+                "OffrCloud provides secure, customizable products for token offerings with expert tech support. Leverage blockchain and cryptocurrencies for a strategic advantage with their necessary tools."
                 </div>
                 <div className="services">
                     <section ref={card1Ref} className={`${card1Class}`}>
                         <label>Equity Token Offering</label>
                         <div className="p">
-                            “High interest bank rates have diminished businesses' access to capital. Our DTO platform
-                            enables enterprises to create and launch their own security tokens, raise capital, and repay
-                            loans to investors on their terms. We offer expert guidance and support, in addition to
-                            customizable solutions tailored to your enterprises specific needs.
-                            "
+                            OffrCloud's DTO platform enables enterprises to create and launch their own security tokens, with expert guidance and customizable solutions for capital raising and loan repayment on their terms.
                         </div>
                         <div className="img">
                             <img src="https://gineousc.sirv.com/Images/icons/undraw_searching_re_3ra9.svg" alt="" />
@@ -100,9 +92,7 @@ const Services = () => {
                     <section ref={card2Ref} className={`${card2Class}`}>
                         <label>Asset Transfer</label>
                         <div className="p">
-                            “Our Asset Transfer platform is a secure and streamlined method for token holders to purchase
-                            and sell their debt tokens on the blockchain. We guide your patrons through the process of
-                            transferring their tokens to liquidate and strengthen their position”.
+                            "OffrCloud's Asset Transfer platform offers a secure and streamlined way for token holders to buy and sell debt tokens on the blockchain, with guidance for transferring tokens to liquidate and strengthen their position."
                         </div>
                         <div className="img">
                             <img src="https://gineousc.sirv.com/Images/icons/undraw_logic_re_nyb4.svg" alt="" />

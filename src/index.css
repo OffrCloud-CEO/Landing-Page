@@ -4566,6 +4566,10 @@ a.url {
   scroll-snap-align: none;
 }
 
+.landing .next-section.faq {
+  scroll-snap-align: none;
+}
+
 .landing .next-section.contact {
   scroll-snap-align: none;
   position: relative;
@@ -4651,8 +4655,15 @@ a.url {
   max-width: 80%;
 }
 
+.landing .hero-section .content .info-section .txt::selection {
+  opacity: 1;
+  background-color: var(--white);
+  color: var(--main-blue);
+}
+
 .landing .hero-section .content .info-section .txt {
-  font-size: .9rem;
+  font-size: 1.25rem;
+  opacity: .7;
 }
 
 .landing .hero-section .content .info-section .btn-row {
@@ -4703,7 +4714,7 @@ a.url {
   position: relative;
   transition: var(--trans);
   padding: 1rem 2rem;
-  font-size: .85rem;
+  font-size: 1rem;
   flex: 1;
   border-radius: .35rem;
   max-height: fit-content;
@@ -4831,8 +4842,16 @@ a.url {
   opacity: 1;
 }
 
+.landing #services > .p {
+  font-size: 1.05rem;
+}
+
+.landing #faq > .p {
+  font-size: 1.05rem;
+}
+
 .landing .next-section .services section .p {
-  font-size: .85rem;
+  font-size: 1rem;
   color: var(--white);
   transition: var(--trans);
   opacity: .5;
@@ -4883,7 +4902,7 @@ a.url {
   transition: var(--trans);
   display: grid;
   place-items: center;
-  font-size: .9rem;
+  font-size: 1rem;
   min-width: 15rem;
   border: 1px solid;
   text-transform: uppercase;
