@@ -1019,7 +1019,7 @@
         justify-content: flex-end;
     }    
 
-    .landing .next-section.mock.m3 {
+    .landing .next-section {
         scroll-snap-align: none;
     }
 }
