@@ -660,7 +660,7 @@
         padding: 1rem;
     }
 
-    .landing .nav-section .case .links li{
+    .landing .nav-section .case .links .li{
         display: none;
     }
 
@@ -773,13 +773,13 @@
     }
 
     .case.open .tray {
-        height: 13.5rem;
+        height: 10.5rem;
         opacity: 1;
     }
 
     .case .tray {
         list-style: none;
-        opacity: 0;
+        opacity: 1;
         height: 0;
         overflow: hidden;
         transition: var(--trans);
@@ -788,24 +788,26 @@
         left: 0;
         top: calc(27px + 3rem);
         background-color: var(--white);
-        display: grid;
+        display: flex;
+        flex-direction: column;
     }
 
-    .case .tray li:hover{
+    .case .tray .li:hover{
         background-color: rgba(0, 0, 0, 0.15);
         color: var(--main-blue);
     }
 
-    .case .tray li:last-child {
+    .case .tray .li:last-child {
         border-bottom: none;
     }
 
-    .case .tray li{        
+    .case .tray .li{        
         padding: 1rem 2rem;
         font-size: .9rem;
         border-bottom: 1px solid rgba(0, 0, 0, 0.15);
         cursor: pointer;
         height: fit-content;
+        background-color: var(--white);
         color: var(--dark-blue-black);
     }
 
