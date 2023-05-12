@@ -1,0 +1,102 @@
+
+.landing .nav-section.hang {
+    position: fixed;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.25);
+    opacity: 0;
+    top: 0;
+    mix-blend-mode: difference;
+    animation: drop-nav .5s cubic-bezier(0.25, 0.46, 0.45, 0.94) forwards;
+  }
+  
+  .landing .nav-section {
+    padding: .75rem 3rem;
+    width: 100dvw;
+    overflow: visible;
+    color: var(--white);
+    z-index: 99999999999;
+    position: absolute;
+    scroll-snap-align: none;
+    top: 0;
+    background-color: transparent;
+    backdrop-filter: blur(5px);
+  }
+  
+  .landing .nav-section .case {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+  }
+  
+  .landing .nav-section .case .logo {
+    margin: 0 1rem 0 0;
+    transition: var(--trans);
+    cursor: pointer;
+  }
+  
+  .landing .nav-section .case .logo img {
+    height: 2rem;
+    filter: brightness(0) invert(-1);
+  }
+  
+  .landing .nav-section.hang .case .logo img {
+    height: 2rem;
+    filter: none;
+  }
+  
+  .landing .nav-section .case .links {
+    display: flex;
+    align-items: flex-end;
+    list-style: none;
+  }
+  
+  .landing .nav-section .case .links a, .landing .nav-section .case .links a:hover, .landing .nav-section .case .links a:active, .landing .nav-section .case .links a:visited, .landing .nav-section .case .links a:link{
+    color: var(--white);
+  }
+  
+  .landing .nav-section .case .links .li:hover {
+    opacity: .8;
+  }
+  
+  
+  .landing .nav-section .case .links .li.active {
+    opacity: 1;
+    font-weight: 500;
+    font-size: 1rem;
+  }
+  
+  .landing .nav-section .case .links .li:active {
+    transform: scale(.92);
+    opacity: .7;
+  }
+  
+  .landing .nav-section .case .links .logo {
+    display: flex;
+    align-items: flex-end;
+    gap: 5px;
+  }
+  
+  .landing .nav-section .case .links .logo span {
+    font-size: 1.25rem;
+    font-weight: 500;
+  }
+  
+  .landing .nav-section .case .links .logo:active {
+    transform: scale(.92);
+    opacity: .7;
+  }
+  
+  .landing .nav-section .case .links .li {
+    position: relative;
+    margin: 0 1.25rem;
+    padding-top: 2.5px;
+    opacity: .5;
+    transition: var(--trans);
+    font-size: .9rem;
+    cursor: pointer;
+  }
+
+/*   
+.landing *{
+  outline: 1px solid red;
+} */
