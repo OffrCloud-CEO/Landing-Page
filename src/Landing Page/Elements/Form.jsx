@@ -5,6 +5,7 @@ import { toast } from 'react-hot-toast';
 const Form = () => {
     const [contactType, setContactType] = useState(1);
     const [busSector, setBusSector] = useState(0);
+    const [dateText, setDateText] = useState(`${new Date().toISOString().split('T')[0]}`);
     const [status, setStatus] = useState(false);
     const btnRef = useRef();
 
@@ -173,7 +174,7 @@ const Form = () => {
                 </div>
                 <div className={`form-g imp`}>
                     <label>Preferred Date and Time:</label>
-                    <input type="date" className="inp" min={new Date().toISOString().split('T')[0]} name='ourTime' placeholder='Lex Corp' required={contactType === 1} />
+                    <input type="date" className="inp" value={dateText} onChange={(e)=>setDateText(e.target.value)} min={new Date().toISOString().split('T')[0]} name='ourTime' placeholder='Lex Corp' required={contactType === 1} />
                 </div>
             </div>}
             <div className="form-g">
