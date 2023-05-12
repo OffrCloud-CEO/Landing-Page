@@ -1017,9 +1017,17 @@
 
     .landing .footer section:last-child .foot-row {
         justify-content: flex-end;
-    }    
+    }
+    
+    .landing .next-section.mock.m1 {
+        scroll-snap-align: none;
+    }
 
-    .landing .next-section {
+    .landing .next-section.mock.m2 {
+        scroll-snap-align: none;
+    }
+
+    .landing .next-section.mock.m3 {
         scroll-snap-align: none;
     }
 }
