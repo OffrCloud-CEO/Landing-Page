@@ -309,8 +309,8 @@
 
     .app {
         --bacground-color: #d0d5e1;
-        --main-blue: #3c37ff;
-        --dark-blue: #2520e3;
+        --main-blue: rgb(56, 86, 255);
+        --dark-blue: #203de3;
         --dark-blue-black: #03004d;
         --white: #fff;
         --trans: .25s ease-in-out;
@@ -722,6 +722,7 @@
         height: 10rem;
         bottom: 0;
         left: 50%;
+        opacity: .5;
         opacity: .8;
     }
 
