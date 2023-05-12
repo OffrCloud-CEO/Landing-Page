@@ -5390,9 +5390,12 @@ a.url {
 }
 
 .landing .next-section .contact-div section form .group.show{
-  height: 21.15rem;
+  /* height: 21.15rem; */
   transition-delay: .25s;
   opacity: 1;
+  height: fit-content;
+  min-height: fit-content;
+  max-height: fit-content;
 }
 
 .landing .next-section .contact-div section form .group{
@@ -5440,6 +5443,10 @@ a.url {
 
 .landing .next-section .contact-div section form .form-g input:focus {
   border: 2px solid rgba(255, 255, 255, 1);
+}
+
+.landing .next-section .contact-div section form .form-g textarea.inp {
+  min-height: 8rem;
 }
 
 .landing .next-section .contact-div section form .form-g .inp {

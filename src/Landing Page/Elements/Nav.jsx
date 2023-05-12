@@ -20,18 +20,16 @@ const Nav = () => {
         <div className={`nav-section ${scrollY > 100 && scrollY < 7655 ? "hang" : ""}`}>
             <div className={`case ${menuDown ? "open" : ""}`}>
                 <div className="links">
-                    <a href='#home' className="logo" onClick={()=>setNavPosition(0)}>
+                    <a href='#top' className="logo" onClick={()=>setNavPosition(0)}>
                         <img src="https://gineousc.sirv.com/Images/loader-ico.png" alt="OFFR logo" />
                         <span>OffrCloud {menuDown}</span>
                     </a>
                     <a onClick={()=>setNavPosition(1)} className={`li ${navPosition === 1 ? "active" : ""}`} href='#services'>Our Services</a>
-                    <a onClick={()=>setNavPosition(2)} className={`li ${navPosition === 2 ? "active" : ""}`} href='#howto'>How to</a>
                     <a onClick={()=>setNavPosition(3)} className={`li ${navPosition === 3 ? "active" : ""}`} href='#faq'>Frequently Asked Questions</a>
                     <a onClick={()=>setNavPosition(4)} className={`li ${navPosition === 4 ? "active" : ""}`} href='#contact'>Contact Us</a>
                 </div>
                 <div className="tray">
                     <a onClick={()=>setNavPosition(1)} className={`li ${navPosition === 1 ? "active" : ""}`} href='#services'>Services</a>
-                    <a onClick={()=>setNavPosition(2)} className={`li ${navPosition === 2 ? "active" : ""}`} href='#howto'>How to</a>
                     <a onClick={()=>setNavPosition(3)} className={`li ${navPosition === 3 ? "active" : ""}`} href='#faq'>FAQ</a>
                     <a onClick={()=>setNavPosition(4)} className={`li ${navPosition === 4 ? "active" : ""}`} href='#contact'>Contact Us</a>
                 </div>

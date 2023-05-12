@@ -19,13 +19,13 @@ const Footer = () => {
                 </div>
             </section>
             <section>
-                <div className="foot-row">What is OffrCloud</div>
-                <div className="foot-row">Resources</div>
-                <div className="foot-row">Solution</div>
-                <div className="foot-row">About Us</div>
+                <a href='#top' className="foot-row">Back Top</a>
+                <a href='#services' className="foot-row">Services</a>
+                <a href='#faq' className="foot-row">FAQ</a>
+                <a href='#contact' className="foot-row">Contact Us</a>
             </section>
         </div>
     )
 }
 
-export default Footer
+export default Footer;

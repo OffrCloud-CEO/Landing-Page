@@ -3,7 +3,7 @@ import Particles from './Particles';
 
 const HeroSection = () => {
     return (
-        <div className="hero-section" id='home'>
+        <div className="hero-section" id='top'>
             <div className="content">
                 <div className="text-content">
                     <label>What is OFFRCLOUD?</label>

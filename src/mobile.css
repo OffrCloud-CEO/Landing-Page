@@ -779,7 +779,7 @@
 
     .case .tray {
         list-style: none;
-        opacity: 1;
+        opacity: 0;
         height: 0;
         overflow: hidden;
         transition: var(--trans);

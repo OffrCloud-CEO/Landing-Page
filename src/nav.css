@@ -11,7 +11,7 @@
   .landing .nav-section {
     padding: .75rem 3rem;
     width: 100dvw;
-    overflow: hidden;
+    overflow: visible;
     color: var(--white);
     z-index: 99999999999;
     position: absolute;

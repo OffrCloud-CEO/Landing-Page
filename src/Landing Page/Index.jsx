@@ -1,7 +1,6 @@
 import React, { useState } from 'react';
 import HeroSection from './Elements/HeroSection';
 import Services from './Elements/Services';
-import HowItWorks from './Elements/HowItWorks';
 import MockUp1 from './Elements/MuckUp displays/MockUp1';
 import MockUp2 from './Elements/MuckUp displays/MockUp2';
 import MockUp3 from './Elements/MuckUp displays/MockUp3';
@@ -21,6 +20,7 @@ const Index = () => {
                     containerStyle={{
                         zIndex: 999999999999
                     }}
+                    position='bottom-right'
                 />
                 <Nav />
                 <HeroSection />
@@ -28,8 +28,6 @@ const Index = () => {
                 <MockUp1 />
                 <MockUp2 />
                 <MockUp3 />
-                <HowItWorks />
-                {/* <CaseStudy /> */}
                 <FaqSection />
                 <ContactUsSection />
                 <Footer />

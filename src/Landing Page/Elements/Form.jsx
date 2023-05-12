@@ -171,12 +171,12 @@ const Form = () => {
                 </div>
                 <div className={`form-g imp`}>
                     <label>Preferred Date and Time:</label>
-                    <input type="datetime-local" className="inp" min={new Date().toISOString().split('T')[0]} name='ourTime' placeholder='Lex Corp' required={contactType === 1} />
+                    <input type="date" className="inp" min={new Date().toISOString().split('T')[0]} name='ourTime' placeholder='Lex Corp' required={contactType === 1} />
                 </div>
             </div>}
             <div className="form-g">
                 <label>{contactType === 1 ? "Potentional Use-Case:" : "Message:"}</label>
-                <textarea className="inp" name='message' placeholder="Tell us more about your needs and how you might benefit from our Service"></textarea>
+                <textarea className="inp" cols={"30"} name='message' placeholder="Tell us more about your needs and how you might benefit from our Service"></textarea>
             </div>
             <br />
             <div className={`form-g ${status ? "disabled" : ""}`}>
