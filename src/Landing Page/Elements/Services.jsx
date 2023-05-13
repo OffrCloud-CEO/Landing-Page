@@ -71,7 +71,7 @@ const Services = () => {
         <div className="next-section serv" id='services'>
             <>
                 <div className={`title ${labelClass}`} ref={labelRef}>
-                    <div>OffrCloud Products / Services</div>
+                    <div>OffrCloud Products & Services</div>
                 </div>
                 <div className="hang-pic">
                     <img src="https://gineousc.sirv.com/Images/icons/undraw_product_tour_re_8bai.svg" alt="friendly Pic" />
@@ -101,9 +101,9 @@ const Services = () => {
                         </div>
                     </section>
                     <section ref={card3Ref} className={`${card3Class}`}>
-                        <label>Other Products & Intergration</label>
+                        <label>More Products & Intergration</label>
                         <div className="p">
-                        We offer other blockchain-based products & integration services. Our team can help you integrate existing products & services with blockchain technology for seamless efficiency.
+                        We offer more blockchain-based products & integration services. Our team can help you integrate existing products & services with blockchain technology for seamless efficiency.
                         </div>
                         <div className="img">
                             <img src="https://gineousc.sirv.com/Images/icons/undraw_selecting_re_5ff6.svg" alt="" />
