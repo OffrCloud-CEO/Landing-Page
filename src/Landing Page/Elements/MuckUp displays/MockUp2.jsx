@@ -60,7 +60,7 @@ const MockUp2 = () => {
                 </div>
             </section>
             <section className={`img ${card2Class}`} ref={card2Ref}>
-                <img src="https://gineousc.sirv.com/Images/Landing%20Page%20Resources/mock003.png" alt="Mock up 1" />
+                <img src="https://gineousc.sirv.com/Images/Landing%20Page%20Resources/mock02.png" alt="Mock up 02" />
             </section>
         </div>
     )
