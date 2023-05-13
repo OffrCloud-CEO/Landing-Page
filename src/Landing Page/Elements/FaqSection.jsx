@@ -13,17 +13,15 @@ const FaqSection = () => {
             <div className="Qs">
                 <section>
                     <span>What is a security token?</span>
-                    <span>A digital representation of a traditional security issued and traded on blockchain. Allows businesses to raise capital and offer investors a share in profits or assets.</span>
+                    <span>A digital representation of a traditional security on blockchain. It allows businesses to access crypto assets for projects.</span>
                 </section>
                 <section>
                     <span>Why should I consider creating a security token for my business?</span>
-                    <span>Provides increased access to capital, greater transparency and security for investors, and the ability to reach a global audience.</span>
+                    <span>Provides increased access to capital, greater transparency & security for investors, & the ability to reach a global audience.</span>
                 </section>
                 <section>
                     <span>What are the benefits of using your platform?</span>
-                    <span>“Our platform allows enterprises greater access to capital to fund their business’s individual
-                        needs. As opposed to high interest loans from banks, leverage retail investors’ capital at a lower
-                        interest rate”.</span>
+                    <span>Our platform allows enterprises greater access to capital to fund their business needs. As opposed to high interest loans from banks, leverage retail crypto investors’ capital at a lower interest rate.</span>
                 </section>
                 <section>
                     <span>What is a debt token?</span>
@@ -37,19 +35,19 @@ const FaqSection = () => {
                 </section>
                 <section>
                     <span>What support do you offer during the creation process?</span>
-                    <span>Comprehensive support including guidance on token economics, legal compliance, and marketing strategies.</span>
+                    <span>We offer comprehensive support including guidance on token economics, legal compliance, & marketing strategies.</span>
                 </section>
                 <section>
-                    <span>How does your platform help manage token sales and dividends?</span>
-                    <span>User-friendly dashboard for managing token sales and dividends, including tools for tracking sales progress and distributing dividends.</span>
+                    <span>How does your platform help manage token sales & dividends?</span>
+                    <span>We provide a user-friendly dashboard to manage token sales & dividend distribution with ease. It includes tools for tracking sales & progress, in addition to dividend metric charts.</span>
                 </section>
                 <section>
                     <span>What are your fees?</span>
-                    <span>Competitive and transparent, based on specific services required. Contact us for a personalized quote.</span>
+                    <span>Our fees are competitive and transparent based on our suite of services. Contact us for a personalized plan.</span>
                 </section>
                 <section>
-                    <span>What security measures are in place to protect my token and investment?</span>
-                    <span>Secure storage of tokens and funds, robust identity verification, and ongoing monitoring of the platform for potential threats or vulnerabilities.</span>
+                    <span>What security measures are in place to protect my token & investment?</span>
+                    <span>Secure storage of tokens & assets, robust identity verification, & ongoing monitoring of platforms for potential threats or vulnerabilities.</span>
                 </section>
             </div>
             <div className="more">

@@ -39,7 +39,10 @@ const MockUp1 = () => {
             <section className={`${card1Class}`} ref={card1Ref}>
                 <div className="h1">Launch Your Security Token in Minutes.</div>
                 <div className="p">
-                OffrCloud offers a secure and easy-to-use platform for creating and managing security tokens. With our streamlined processes, you can launch your token in minutes and customize it to meet your unique needs. Our user-friendly interface makes it easy to manage your token sale, dividend distribution, and other essential functions with ease.
+                    OffrCloud offers a secure & easy-to-use platform to create & manage security tokens. With
+                    our streamlined process, customize & launch a token that fits your needs. We include a
+                    user-friendly interface to manage token sale, dividend distribution, crypto to USD conversion, &
+                    other essential functions.
                 </div>
                 <div className="icon-grid">
                     <div>

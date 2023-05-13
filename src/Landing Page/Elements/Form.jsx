@@ -68,19 +68,15 @@ const Form = () => {
         }
 
         // Send the email using the EmailJS service
+        const serviceId = process.env.REACT_APP_SERVICE_ID;
+        const templateId_schedule = process.env.REACT_APP_SCHEDULE_EMAIL_ID;
+        const templateId_contact = process.env.REACT_APP_CONTACT_US_EMAIL_ID;
+        const userID = process.env.REACT_APP_USER_ID;
 
         try {
-            emailjs.sendForm('service_p4nlw57', 'template_0uj3fio', e.target, 'QKJU5eC2phv3_z6W9')
-                .then((result) => {
-                    console.log("Your message has been sent successfully!");
-                }, (error) => {
-                    console.error(error);
-                    throw Error(`this error Occurred: ${error}`);
-                });
-
             switch (contactType) {
                 case 0:
-                    await emailjs.sendForm('service_p4nlw57', 'template_0x2g9cl', e.target, 'QKJU5eC2phv3_z6W9')
+                    await emailjs.sendForm(serviceId, templateId_contact, e.target, userID)
                         .then((result) => {
                             // Clear the form fields
                             e.target.reset();
@@ -90,7 +86,7 @@ const Form = () => {
                         });
                     break;
                 case 1:
-                    await emailjs.sendForm('service_p4nlw57', 'template_0x2g9cl', e.target, 'QKJU5eC2phv3_z6W9')
+                    await emailjs.sendForm(serviceId, templateId_schedule, e.target, userID)
                         .then((result) => {
                             // Clear the form fields
                             e.target.reset();

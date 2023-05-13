@@ -9,14 +9,14 @@ const Footer = () => {
                     <div className="img"><img className='mini' src="https://gineousc.sirv.com/Images/icons/twitter.png" alt="social icon" /></div>
                     <div className="img"><img className='mini' src="https://gineousc.sirv.com/Images/icons/instagram-new--v1.png" alt="social icon" /></div>
                 </div>
-                <div className="foot-row">
+                <a href='mailto:chris@offrcloud.com' className="foot-row">
                     <img src="https://gineousc.sirv.com/Images/icons/new-post--v1.png" alt="icon mail" />
-                    help@offrcloud.com
-                </div>
-                <div className="foot-row">
+                    chris@offrcloud.com
+                </a>
+                <a href='tel:+14046615581' className="foot-row">
                     <img src="https://gineousc.sirv.com/Images/icons/phone.png" alt="icon phone" />
-                    +1 (408) 508-OFFR
-                </div>
+                    +1 (404) 661-5581
+                </a>
             </section>
             <section>
                 <a href='#top' className="foot-row">Back Top</a>

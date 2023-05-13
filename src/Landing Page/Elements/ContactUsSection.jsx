@@ -7,10 +7,10 @@ const ContactUsSection = () => {
             <div className="contact-div">
                 <section>
                     <div className="label">
-                        Wield the web as data to outsmart competitors
+                        Wield crypto to outsmart competitors
                     </div>
                     <div className="p">
-                        Join the businuess who have begun to edge out competitors by securing the web for "alternative" data.
+                        Leverage blockchain and cryptocurrencies to outsmart competitors. Contact us for streamlined operations and increased profits.
                     </div>
                     <div className="img">
                         <img src="https://gineousc.sirv.com/Images/Landing%20Page%20Resources/mock001.png" alt="demo-img" />
@@ -22,10 +22,10 @@ const ContactUsSection = () => {
             </div>
             <div className="contact-bottom">
                 <section>
-                    <div className="logo">
+                    <a href='#top' className="logo">
                         <img src="https://gineousc.sirv.com/Images/loader-ico.png" alt="logo png" />
                         <span>OffrCloud</span>
-                    </div>
+                    </a>
                     <div className="p">
                         Security tokens made simple.
                     </div>

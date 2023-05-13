@@ -77,13 +77,13 @@ const Services = () => {
                     <img src="https://gineousc.sirv.com/Images/icons/undraw_product_tour_re_8bai.svg" alt="friendly Pic" />
                 </div>
                 <div className="p">
-                "OffrCloud provides secure, customizable products for token offerings with expert tech support. Leverage blockchain and cryptocurrencies for a strategic advantage with their necessary tools."
+                    OffrCloud provides secure, customizable products for token offerings with expert tech support. Leverage blockchain & cryptocurrencies.
                 </div>
                 <div className="services">
                     <section ref={card1Ref} className={`${card1Class}`}>
-                        <label>Equity Token Offering</label>
+                        <label>Debt Token Offering</label>
                         <div className="p">
-                            OffrCloud's DTO platform enables enterprises to create and launch their own security tokens, with expert guidance and customizable solutions for capital raising and loan repayment on their terms.
+                            OffrCloud’s platform enables enterprises to launch security tokens with customizable solutions to raise capital & repay token holders.
                         </div>
                         <div className="img">
                             <img src="https://gineousc.sirv.com/Images/icons/undraw_searching_re_3ra9.svg" alt="" />
@@ -92,7 +92,9 @@ const Services = () => {
                     <section ref={card2Ref} className={`${card2Class}`}>
                         <label>Asset Transfer</label>
                         <div className="p">
-                            "OffrCloud's Asset Transfer platform offers a secure and streamlined way for token holders to buy and sell debt tokens on the blockchain, with guidance for transferring tokens to liquidate and strengthen their position."
+                            Our asset transfer service offers a secure & streamlined way for token holders to buy & sell
+                            debt tokens on the blockchain. Our expert support team helps your token holders liquidate or
+                            strengthen their position.
                         </div>
                         <div className="img">
                             <img src="https://gineousc.sirv.com/Images/icons/undraw_logic_re_nyb4.svg" alt="" />
@@ -101,7 +103,7 @@ const Services = () => {
                     <section ref={card3Ref} className={`${card3Class}`}>
                         <label>Other Products & Intergration</label>
                         <div className="p">
-                        We offer other blockchain-based products and integration services. Our team can help you integrate existing products and services with blockchain technology for seamless efficiency.
+                        We offer other blockchain-based products & integration services. Our team can help you integrate existing products & services with blockchain technology for seamless efficiency.
                         </div>
                         <div className="img">
                             <img src="https://gineousc.sirv.com/Images/icons/undraw_selecting_re_5ff6.svg" alt="" />

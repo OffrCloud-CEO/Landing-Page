@@ -7,10 +7,13 @@ const HeroSection = () => {
             <div className="content">
                 <div className="text-content">
                     <label>What is OFFRCLOUD?</label>
-                    <h1>The Future of Finance is Here.</h1>
+                    <h1>The Future of Finance.</h1>
                     <div className="info-section">
                         <div className="txt">
-                            "OffrCloud offers a secure, customizable platform for raising capital through security token offerings, as an alternative to high-interest bank loans. Join their network now to simplify security token management."
+                            <span>OffrCloud offers a secure, customizable</span>
+                            <span>platform for raising capital through security </span>
+                            <span>token offerings, as an alternative to high-interest </span>
+                            <span>bank loans.</span>
                         </div>
                         <div className="btn-row">
                             <a href="#contact" className="btnx">Request a Demo</a>

@@ -215,24 +215,24 @@
 }
 
 .landing .next-section.mock section.img.in-view{
-    transform: translateY(0);
+    transform: translateX(0);
     opacity: 1;
 }
 
 .landing .next-section.mock section.img{
-    transform: translateY(-5rem);
+    transform: translateX(10rem);
     opacity: 0;
     transition-delay: .15s;
     transition: var(--trans);
 }
 
 .landing .next-section.mock section:not(.img).in-view{
-    transform: translateY(0);
+    transform: translateX(0);
     opacity: 1;
 }
 
 .landing .next-section.mock section:not(.img){
-    transform: translateY(5rem);
+    transform: translateX(-10rem);
     opacity: 0;
     transition-delay: .25s;
     transition: var(--trans);

@@ -1017,8 +1017,8 @@
 
     .landing .footer section:last-child .foot-row {
         justify-content: flex-end;
-    }
-    
+    }    
+
     .landing .next-section.mock.m1 {
         scroll-snap-align: none;
     }

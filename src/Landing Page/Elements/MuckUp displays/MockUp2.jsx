@@ -37,13 +37,12 @@ const MockUp2 = () => {
     return (
         <div className="next-section mock m1">
             <section className={`${card1Class}`} ref={card1Ref}>
-                <div className="h1">Intuitive and Responsive Dapp UI for Token Holders.</div>
+                <div className="h1">Intuitive & Responsive Dapp UI for Token Holders.</div>
                 <div className="p">
-                    “Our platform is designed with an intuitive and fully responsive Dapp UI for your token holders.
-                    We offer a comprehensive suite of features to help your stakeholders manage their tokens,
-                    including dividend management. Our team of experts will guide your stakeholders through the
-                    process of purchasing and tracking their tokens performance, ensuring their confidence and
-                    trust in your token offering."
+                    Our platform is designed with an intuitive & responsive portal for your token holders’
+                    convenience. We offer a comprehensive suite of features to assist your token holders manage
+                    their assets. Our team of experts will guide your stakeholders through the process of purchasing
+                    & tracking their token performance.
                 </div>
                 <div className="icon-grid">
                     <div>
@@ -55,7 +54,7 @@ const MockUp2 = () => {
                         <span>Intuitive Dapp</span>
                     </div>
                     <div>
-                        <img src="https://gineousc.sirv.com/Images/icons/coin-in-hand--v2.png" alt="Launch Icon" />
+                        <img src="https://gineousc.sirv.com/Images/icons/coin-in-h&--v2.png" alt="Launch Icon" />
                         <span>Token Sale</span>
                     </div>
                 </div>

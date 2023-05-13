@@ -38,13 +38,11 @@ const MockUp3 = () => {
     return (
         <div className="next-section mock m3">
             <section className={`${card1Class}`} ref={card1Ref}>
-                <div className="h1">Expert Guidance and Support for Your Security Token Offering.</div>
+                <div className="h1">Expert Guidance & Support for Your Security Token Offering.</div>
                 <div className="p">
-                    “At OffrCloud, we provide customizable software solutions to meet your unique capital raising
-                    needs. Our team of legal and blockchain professionals offer expert guidance to utilize
-                    exemptions found in SEC Regulation A and D to raise crypto capital in compliance with all
-                    applicable securities laws. This allows our enterprise partners to increase their potential success
-                    for success and profitability.”
+                    At Offrcloud, we provide customizable software solutions to meet your unique capital raising
+                    needs. Our expert team of legal counsels consults on each offering to maintain compliance with
+                    regulatory rules & requirements.
                 </div>
                 <div className="icon-grid">
                     <div>
