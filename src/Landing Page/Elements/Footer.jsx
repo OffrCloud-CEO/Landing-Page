@@ -5,9 +5,10 @@ const Footer = () => {
         <div className="footer">
             <section>
                 <div className="foot-row">
-                    <div className="img"><img className='mini' src="https://gineousc.sirv.com/Images/icons/facebook-new.png" alt="social icon" /></div>
-                    <div className="img"><img className='mini' src="https://gineousc.sirv.com/Images/icons/twitter.png" alt="social icon" /></div>
-                    <div className="img"><img className='mini' src="https://gineousc.sirv.com/Images/icons/instagram-new--v1.png" alt="social icon" /></div>
+                    <a href="https://www.linkedin.com/company/offrcloud/about/" target="_blank" className="img"><img className='mini' src="https://gineousc.sirv.com/Images/icons/linkedin.png" alt="social icon" /></a>
+                    <a href="#" target="_blank" className="img"><img className='mini' src="https://gineousc.sirv.com/Images/icons/facebook-new.png" alt="social icon" /></a>
+                    <a href="https://instagram.com/offrcloud?igshid=NTc4MTIwNjQ2YQ==" target="_blank" className="img"><img className='mini' src="https://gineousc.sirv.com/Images/icons/twitter.png" alt="social icon" /></a>
+                    <a href="#" target="_blank" className="img"><img className='mini' src="https://gineousc.sirv.com/Images/icons/instagram-new--v1.png" alt="social icon" /></a>
                 </div>
                 <a href='mailto:chris@offrcloud.com' className="foot-row">
                     <img src="https://gineousc.sirv.com/Images/icons/new-post--v1.png" alt="icon mail" />
