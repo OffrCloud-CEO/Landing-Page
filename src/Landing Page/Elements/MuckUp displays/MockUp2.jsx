@@ -54,7 +54,7 @@ const MockUp2 = () => {
                         <span>Intuitive Dapp</span>
                     </div>
                     <div>
-                        <img src="https://gineousc.sirv.com/Images/icons/coin-in-h&--v2.png" alt="Launch Icon" />
+                        <img src="https://gineousc.sirv.com/Images/icons/coin-in-hand--v2.png" alt="Launch Icon" />
                         <span>Token Sale</span>
                     </div>
                 </div>
