@@ -4,6 +4,7 @@ import './index.css';
 import './nav.css';
 import './scrollAnimate.css';
 import './mobile.css';
+import './animate.css';
 import App from './App';
 import "bootstrap/dist/css/bootstrap.css";
 
