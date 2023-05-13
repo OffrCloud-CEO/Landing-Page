@@ -13,7 +13,7 @@ const ContactUsSection = () => {
                         Leverage blockchain and cryptocurrencies to outsmart competitors. Contact us for streamlined operations and increased profits.
                     </div>
                     <div className="img">
-                        <img src="https://gineousc.sirv.com/Images/Landing%20Page%20Resources/mock001.png" alt="demo-img" />
+                        <img src="https://gineousc.sirv.com/Images/Landing%20Page%20Resources/mock01.png" alt="demo-img" />
                     </div>
                 </section>
                 <section>
