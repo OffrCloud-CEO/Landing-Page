@@ -4548,11 +4548,13 @@ a.url {
 
 .landing .hero-section {
   height: 100dvh;
+  height: 100vh;
   display: grid;
   place-items: center;
   color: var(--white);
   scroll-snap-align: none;
   width: 100dvw;
+  width: 100vw;
   overflow-x: hidden;
   background-image: linear-gradient(to bottom, var(--main-blue), var(--dark-bluish-black));
 }
