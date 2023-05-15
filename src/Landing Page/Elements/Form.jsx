@@ -160,12 +160,12 @@ const Form = () => {
                         <option value="Hegde Fund">Hegde Fund</option>
                         <option value="Bank">Bank</option>
                         <option value="SPAC">SPAC</option>
-                        <option value="6">Other</option>
+                        <option value="6">Others</option>
                     </select>
 
                 </div>
                 <div className={`form-g imp ${Number(busSector) === 6 ? "" : "compressed"}`}>
-                    <label>Other:</label>
+                    <label>Others:</label>
                     <input type="text" className="inp" name='sector' placeholder='Sector' required={Number(busSector) === 6 && contactType === 1} />
                 </div>
                 <div className={`form-g imp`}>
