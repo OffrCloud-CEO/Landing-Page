@@ -12,7 +12,7 @@ const HeroSection = () => {
                         <div className="txt">
                             <span>OffrCloud offers a secure, customizable</span>
                             <span> platform for raising capital through security </span>
-                            <span>token offerings, as an alternative to high-interest </span>
+                            <span>token offerings as an alternative to high-interest </span>
                             <span>bank loans.</span>
                         </div>
                         <div className="btn-row">
