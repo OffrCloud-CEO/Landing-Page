@@ -42,6 +42,7 @@ const Form = () => {
                 formData = {
                     bEmail: sanitize(e.target.bEmail.value),
                     cName: sanitize(e.target.cName.value),
+                    cPhone: sanitize(e.target.cPhone.value),
                     rName: sanitize(e.target.rName.value),
                     sector: sanitize(e.target.sector.value),
                     ourTime: sanitize(e.target.ourTime.value),
@@ -146,6 +147,10 @@ const Form = () => {
                 <div className="form-g imp">
                     <label>Company Name</label>
                     <input type="text" className="inp" name='cName' placeholder='Company name' required={contactType === 1} />
+                </div>
+                <div className="form-g imp">
+                    <label>Phone</label>
+                    <input type="text" className="inp" name='cPhone' placeholder='+1 555 555 5555' required={contactType === 1} />
                 </div>
                 <div className="form-g imp">
                     <label>Representative Name</label>
