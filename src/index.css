@@ -4555,7 +4555,7 @@ a.url {
   scroll-snap-align: none;
   width: 100dvw;
   width: 100vw;
-  overflow-x: hidden;
+  /* overflow-x: hidden; */
   background-image: linear-gradient(to bottom, var(--main-blue), var(--dark-bluish-black));
 }
 
