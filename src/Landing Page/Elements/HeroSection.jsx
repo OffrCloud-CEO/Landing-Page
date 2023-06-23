@@ -10,10 +10,10 @@ const HeroSection = () => {
                     <h1>The Future of Finance.</h1>
                     <div className="info-section">
                         <div className="txt">
-                            <span>OffrCloud offers a secure, customizable</span>
-                            <span> platform for raising capital through security </span>
-                            <span>token offerings as an alternative to high-interest </span>
-                            <span>bank loans.</span>
+                            <span>OffrCloud presents a seamless and secure solution, providing</span>
+                            <span> a customizable platform for capital acquisition.</span>
+                            <span> By utilizing security token offerings, it offers an</span>
+                            <span> appealing alternative to high-interest bank loans.</span>
                         </div>
                         <div className="btn-row">
                             <a href="#contact" className="btnx">Request a Demo</a>
