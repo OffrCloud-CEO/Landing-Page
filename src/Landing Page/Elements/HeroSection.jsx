@@ -10,9 +10,7 @@ const HeroSection = () => {
                     <h1>The Future of Finance.</h1>
                     <div className="info-section">
                         <div className="txt">
-                            <span>OffrCloud seamlessly blends security token offerings and</span>
-                            <span>crypto-based fundraising, providing a secure, customizable</span>
-                            <span>platform for capital acquisition and USD raising.</span>
+                            <span>OffrCloud provides a secure, customizable platform to raise USD via crypto.</span>
                         </div>
                         <div className="btn-row">
                             <a href="#contact" className="btnx">Request a Demo</a>
