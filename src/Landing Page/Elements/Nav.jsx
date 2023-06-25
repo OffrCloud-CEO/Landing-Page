@@ -16,6 +16,10 @@ const Nav = () => {
         };
     }, []);
 
+    useEffect(()=>{
+        setMenuDown(false);
+    }, [navPosition])
+
     return (
         <div className={`nav-section ${scrollY > 100 && scrollY < 7655 ? "hang" : ""}`}>
             <div className={`case ${menuDown ? "open" : ""}`}>
