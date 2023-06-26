@@ -37,7 +37,7 @@ const Nav = () => {
                     <a onClick={()=>setNavPosition(3)} className={`li ${navPosition === 3 ? "active" : ""}`} href='#faq'>FAQ</a>
                     <a onClick={()=>setNavPosition(4)} className={`li ${navPosition === 4 ? "active" : ""}`} href='#contact'>Contact Us</a>
                 </div>
-                <a href="#contact" className="btnx">Schedule a Live Demo</a>
+                <a href="https://demo.offrcloud.com" className="btnx">Connect Wallet</a>
                 <div className="trigger" onClick={() => setMenuDown(!menuDown)}>
                     <div></div>
                     <div></div>

@@ -14,7 +14,7 @@ const HeroSection = () => {
                         </div>
                         <div className="btn-row">
                             <a href="#contact" className="btnx">Request a Demo</a>
-                            <a href="#services" className="btnx">Explore</a>
+                            <a href="https://demo.offrcloud.com" className="btnx">Connect Wallet</a>
                         </div>
                     </div>
                 </div>
