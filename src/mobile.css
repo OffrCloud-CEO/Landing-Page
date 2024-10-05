@@ -660,6 +660,10 @@
         padding: 1rem;
     }
 
+    .landing .nav-section.hang{
+        padding: 1rem;
+    }
+
     .landing .nav-section .case .links .li{
         display: none;
     }
