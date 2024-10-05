@@ -10,6 +10,7 @@ import Footer from './Elements/Footer';
 import Nav from './Elements/Nav';
 import { Toaster } from 'react-hot-toast';
 
+
 const Index = () => {
     return (
         <div className="landing">

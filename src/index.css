@@ -1,10 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
 /* Generat Style */
 * {
   padding: 0;
   margin: 0;
   box-sizing: border-box;
-  font-size: 1.6vmin;
-  font-family: "Montserrat", sans-serif;
+  font-size: 2.05vmin;
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-style: normal;
 }
 
 *::-webkit-scrollbar {
@@ -207,7 +211,7 @@ a:any-link {
   align-items: center;
   justify-content: center;
   cursor: pointer;
-  transition: .25s ease-in-out;
+  transition: .15s ease-in-out;
 }
 
 .formPart section .btnx:active {
@@ -227,7 +231,7 @@ a:any-link {
   font-size: 1.05rem;
   border-radius: .35rem;
   border: 1px solid rgba(0, 0, 0, .1);
-  transition: .25s ease-in-out;
+  transition: .15s ease-in-out;
   outline: 2px solid transparent;
 }
 
@@ -260,7 +264,7 @@ a:any-link {
   padding: 1rem;
   border-radius: .35rem;
   gap: 5px;
-  transition: .25s ease-in-out;
+  transition: .15s ease-in-out;
   font-weight: 450;
   align-items: center;
   justify-content: center;
@@ -1523,7 +1527,7 @@ a:any-link {
   padding: 5px;
   font-size: .85em;
   font-weight: 500;
-  transition: .25s ease-in-out;
+  transition: .15s ease-in-out;
   background-color: #eee;
   border-radius: .45rem;
   opacity: 0;
@@ -2253,7 +2257,7 @@ a:any-link {
   border-radius: 0.35rem;
   min-height: fit-content;
   height: auto;
-  transition: .25s ease-in-out;
+  transition: .15s ease-in-out;
   box-shadow: 0 10px 50px rgba(0, 0, 0, .05);
   display: flex;
 }
@@ -2743,7 +2747,7 @@ a:any-link {
   right: 0%;
   top: .5rem;
   font-size: .75rem;
-  transition: .25s ease-in-out;
+  transition: .15s ease-in-out;
   padding: 5px;
   background-color: rgba(0, 0, 0, .025);
   border-radius: .45rem;
@@ -2782,7 +2786,7 @@ a:any-link {
   border-radius: .3rem;
   border: 1px solid rgba(0, 0, 0, .1);
   display: flex;
-  transition: .25s ease-in-out;
+  transition: .15s ease-in-out;
   flex-direction: column;
   justify-content: center;
   align-items: center;
@@ -2917,7 +2921,7 @@ a:any-link {
   font-size: x-small;
   justify-content: center;
   cursor: pointer;
-  transition: .25s ease-in-out;
+  transition: .15s ease-in-out;
 }
 
 .dash_section .dash-row .action-card>.txt span.left .btnx:hover {
@@ -4507,7 +4511,7 @@ a.url {
   align-items: center;
   justify-content: center;
   cursor: pointer;
-  transition: .25s ease-in-out;
+  transition: .15s ease-in-out;
 }
 
 .form-divs .form-div .form .btnx:active {
@@ -4550,6 +4554,7 @@ a.url {
   height: 100dvh;
   height: 100vh;
   display: grid;
+  position: relative;
   place-items: center;
   color: var(--white);
   scroll-snap-align: none;
@@ -5125,6 +5130,10 @@ a.url {
   gap: 10px;
 }
 
+.landing .next-section.mock section:not(.img) .icon-grid div:has(:hover):active {
+  transform: skewY(-1deg) scale(0.98);
+}
+
 .landing .next-section.mock section:not(.img) .icon-grid div:hover {
   background-image: linear-gradient(to right, rgba(255, 255, 255, .075), rgba(255, 255, 255, .025));
   transform: skewY(1deg);
@@ -5133,6 +5142,7 @@ a.url {
 .landing .next-section.mock section:not(.img) .icon-grid div {
   display: flex;
   justify-content: center;
+  user-select: none;
   flex: 1;
   cursor: pointer;
   min-width: 12rem;
@@ -5652,4 +5662,9 @@ a.url {
 .landing .footer section .foot-row img{
   filter: brightness(0) invert(1);
   height: 1.5rem;
+}
+
+.location-marker {
+  position: absolute;
+  bottom: 0;
 }

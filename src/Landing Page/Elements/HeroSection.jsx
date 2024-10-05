@@ -1,7 +1,31 @@
-import React from 'react'
+import React, { useContext, useEffect, useRef } from 'react'
 import Particles from './Particles';
+import { MyContext } from '../../App';
 
 const HeroSection = () => {
+    const elementRef = useRef(null);
+    const { setScrolledDown } = useContext(MyContext);
+
+
+    const handleScroll = () => {
+        const element = elementRef.current;
+        if (element) {
+            const elementPosition = element.getBoundingClientRect().top;
+            setScrolledDown(elementPosition < 20);
+        }
+    };
+
+    useEffect(() => {
+        const targetElement = elementRef.current.parentElement.parentElement; // Get the scrollable parent element
+        
+        targetElement.addEventListener('scroll', handleScroll);
+        
+        return () => {
+            targetElement.removeEventListener('scroll', handleScroll);
+        };
+    }, []);
+
+
     return (
         <div className="hero-section" id='top'>
             <div className="content">
@@ -22,6 +46,7 @@ const HeroSection = () => {
                     <Particles />
                 </div>
             </div>
+            <div className='location-marker' ref={elementRef}></div>
         </div>
     )
 }

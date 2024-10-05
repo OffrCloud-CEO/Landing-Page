@@ -1,9 +1,11 @@
 
 .landing .nav-section.hang {
     position: fixed;
-    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.25);
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.35);
     opacity: 0;
     top: 0;
+    padding: 1.25rem 3rem;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.25);
     mix-blend-mode: difference;
     animation: drop-nav .5s cubic-bezier(0.25, 0.46, 0.45, 0.94) forwards;
   }
