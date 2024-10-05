@@ -1,6 +1,6 @@
 @media screen and (max-height: 700px) {
     * {
-        font-size: 14px;
+        font-size: 13px;
     }
 
     .login main {
@@ -246,7 +246,7 @@
     }
 
     * {
-        font-size: 14px;
+        font-size: 13px;
     }
 
     .login main .formPart .form-g {
