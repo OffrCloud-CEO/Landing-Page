@@ -9,7 +9,7 @@ const FaqSection = () => {
             <div className="hang-pic">
                 <img src="https://gineousc.sirv.com/Images/icons/undraw_faq_re_31cw.svg" alt="friendly Pic" />
             </div>
-            <div className="p">Everything you need to know about OffrCloud. Can't find the answer you're looking for? Please Contact us to get in contact with our friendly team.</div>
+            <div className="p">Everything you need to know about OffrCloud. Can't find the answer you're looking for? Please <link href='#contact'>Contact us</link> to get in contact with our friendly team.</div>
             <div className="Qs">
                 <section>
                     <span>What is a security token?</span>
