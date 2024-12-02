@@ -5652,6 +5652,7 @@ a.url {
 
 .landing .footer section .foot-row {
   transition: var(--trans);
+  width: fit-content;
 }
 
 .landing .footer section .foot-row {
