@@ -230,6 +230,16 @@
     .login main .side {
         display: none;
     }
+    .contact-bottom {
+        padding: 2rem;
+    }
+
+    .copyright {
+        flex-wrap: wrap;
+        padding: 2rem;
+        gap: 2rem;
+        justify-content: center;
+    }     
 }
 
 @media screen and (max-width: 600px) {
