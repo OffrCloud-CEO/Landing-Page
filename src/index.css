@@ -2802,7 +2802,7 @@ a:any-link {
 }
 
 .kard .grided>div.dt:hover {
-  background-color: rgba(255, 255, 255, 0.05);
+  background-color: rgba(255, 255, 255, 0.15);
 }
 
 .kard .grided>div span:first-child {
@@ -4594,7 +4594,7 @@ a.url {
   display: grid;
   place-items: center;
   width: 100%;
-  background-color: rgba(255, 255, 255, 0.05);
+  background-color: rgba(255, 255, 255, 0.15);
   backdrop-filter: blur(5px);
   z-index: 10;
 }
@@ -4823,7 +4823,7 @@ a.url {
   min-width: 20rem;
   padding: 1.5rem 3rem;
   transition: var(--trans);
-  background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0.05), rgba(255, 255, 255, 0.0125));
+  background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0.15), rgba(255, 255, 255, 0.0125));
   color: var(--main-blue);
   position: relative;
   z-index: 1500;
@@ -5221,7 +5221,7 @@ a.url {
   cursor: pointer;
   opacity: .5;
   border-radius: .35rem;
-  background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0.05), rgba(255, 255, 255, 0.0125));
+  background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0.15), rgba(255, 255, 255, 0.0125));
   padding: 10px 1rem;
   flex-direction: column;
   gap: 5px;
@@ -5250,7 +5250,7 @@ a.url {
 }
 
 .landing .next-section.faq .more {
-  background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0.05), rgba(255, 255, 255, 0.0125));
+  background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0.15), rgba(255, 255, 255, 0.0125));
   border: 1px solid rgba(255, 255, 255, 0.075);
   padding: 0 2rem;
   border-radius: .35rem;
@@ -5310,21 +5310,21 @@ a.url {
 }
 
 .landing .next-section .contact-div .choose .choice:hover{
-  background-color: rgba(255, 255, 255, 0.05);
+  background-color: rgba(255, 255, 255, 0.15);
 }
 
 .landing .next-section .contact-div .choose .choice.active{
-  background-color: rgba(255, 255, 255, 0.05);
+  background-color: rgba(255, 255, 255, 0.15);
   background-image: linear-gradient(to right, rgba(56, 86, 255, .1), rgba(56, 86, 255, .2));
 }
 
 .landing .next-section .contact-div .choose .choice:last-child.active{
-  background-color: rgba(255, 255, 255, 0.05);
+  background-color: rgba(255, 255, 255, 0.15);
   background-image: linear-gradient(to right, rgba(56, 86, 255, .2), rgba(56, 86, 255, .1));
 }
 
 .landing .next-section .contact-div .choose .choice.active{
-  background-color: rgba(255, 255, 255, 0.05);
+  background-color: rgba(255, 255, 255, 0.15);
   transform: scale(.9);
 }
 
@@ -5342,7 +5342,7 @@ a.url {
   flex: 1;
   border-radius: .35rem;
   justify-content: center;
-  border: 1px solid rgba(255, 255, 255, 0.05);
+  border: 1px solid rgba(255, 255, 255, 0.15);
   padding: 2rem;
   margin: 1rem 0;
 }
@@ -5483,7 +5483,7 @@ a.url {
 .landing .next-section .contact-div section form .form-g .inp {
   flex: 3;
   padding: 1rem 1.5rem;
-  background-color: rgba(255, 255, 255, 0.05);
+  background-color: rgba(255, 255, 255, 0.15);
   resize: vertical;
   border: 2px solid rgba(255, 255, 255, .1);
   transition: var(--trans);
@@ -5531,7 +5531,7 @@ a.url {
   flex-wrap: wrap;
   justify-content: space-between;
   gap: 2rem;
-  padding: 2rem;
+  padding: 2rem 5rem;
 }
 
 .landing .next-section .contact-bottom section {
@@ -5592,7 +5592,7 @@ a.url {
   cursor: pointer;
   display: flex;
   transition: var(--trans);
-  border: 1px solid rgba(255, 255, 255, 0.05);
+  border: 1px solid rgba(255, 255, 255, 0.15);
   gap: 1rem;
   border-radius: .35rem;
   padding: 1rem;
@@ -5620,8 +5620,9 @@ a.url {
   background-color: var(--dark-bluish-black);
   color: var(--white);
   scroll-snap-align: none;
-  padding: 1rem;
-  border-top: 1px solid rgba(255, 255, 255, 0.05);
+  padding-inline: 5rem;
+  padding-block: 2rem;
+  border-top: 1px solid rgba(255, 255, 255, 0.15);
   display: flex; 
   flex-wrap: wrap;
 }
@@ -5667,4 +5668,18 @@ a.url {
 .location-marker {
   position: absolute;
   bottom: 0;
+}
+
+.copyright {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: #fff;
+  padding-inline: 5rem;
+  padding-block: 2rem;
+  border-top: 1px solid rgba(255, 255, 255, 0.15);
+} 
+
+.copyright a:hover {
+  color: #203de3;
 }
