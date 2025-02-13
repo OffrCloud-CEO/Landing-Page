@@ -85,6 +85,11 @@ a:any-link {
   scroll-behavior: smooth;
 }
 
+
+.text-primary {
+  color: var(--main-blue);
+}
+
 .app .login {
   background-color: var(--login-background-color);
   color: var(--black);
@@ -4575,6 +4580,20 @@ a.url {
 
 .landing .next-section.faq {
   scroll-snap-align: none;
+}
+
+.landing .next-section.faq .p {
+  opacity: 1;
+  span {
+    opacity: 0.6;
+  }
+  a:hover {
+    text-decoration: underline;
+    text-underline-offset: 0.3rem;
+  }
+  a {
+    text-underline-offset: 0rem;
+  }
 }
 
 .landing .next-section.contact {
